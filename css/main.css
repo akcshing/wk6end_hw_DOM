@@ -1,7 +1,21 @@
 body {
   font-size: 22px;
+  display: block;
+}
+
+#animal-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 li {
   list-style-type: none;
+  border-radius: 5px;
+  border-style: solid;
+  display: list-item;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  background-color: beige;
 }
